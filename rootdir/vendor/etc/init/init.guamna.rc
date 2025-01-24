@@ -1,0 +1,8 @@
+on init
+    start vendor.astro
+
+service vendor.astro /vendor/bin/init.astro.sh
+    class core
+    user root
+    oneshot
+    disabled
