@@ -32,6 +32,10 @@ TARGET_USES_CHIPONE_FINGERPRINT := true
 TARGET_USES_FPC_FINGERPRINT := true
 TARGET_USES_GOODIX_FINGERPRINT := true
 
+# Device Folders
+PRODUCT_PACKAGES += \
+    astro_folders
+
 # Model
 PRODUCT_MODEL := motorola one fusion
 
