@@ -9,6 +9,7 @@ $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr: $(wildcard $(PRODUCT_VENDOR_KERNEL_H
 	mkdir -p $@/include
 	cp -a $(PRODUCT_VENDOR_KERNEL_HEADERS)/. $@/include
 
+# I'm not sure if we need all this stuff yet
 include $(CLEAR_VARS)
 LOCAL_MODULE := astro_folders
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)

@@ -1,0 +1,16 @@
+# Audio
+persist.vendor.audio.calfile0=/vendor/etc/acdbdata/astro/Bluetooth_cal.acdb
+persist.vendor.audio.calfile1=/vendor/etc/acdbdata/astro/General_cal.acdb
+persist.vendor.audio.calfile2=/vendor/etc/acdbdata/astro/Global_cal.acdb
+persist.vendor.audio.calfile3=/vendor/etc/acdbdata/astro/Handset_cal.acdb
+persist.vendor.audio.calfile4=/vendor/etc/acdbdata/astro/Hdmi_cal.acdb
+persist.vendor.audio.calfile5=/vendor/etc/acdbdata/astro/Headset_cal.acdb
+persist.vendor.audio.calfile6=/vendor/etc/acdbdata/astro/Speaker_cal.acdb
+persist.vendor.audio.calfile7=/vendor/etc/acdbdata/astro/Codec_cal.acdb
+ro.boot.product.vendor.sku=astro
+
+# Camera
+persist.vendor.camera.customer.config=camera_config_astro.xml
+
+# Density
+ro.sf.lcd_density=270
